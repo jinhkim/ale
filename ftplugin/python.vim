@@ -2,6 +2,6 @@
 
 "for ALE
 " Check Python files
-let b:ale_linters = ['flake8', 'pylint']
+let b:ale_linters = ['pycodestyle', 'flake8']
 " fix python files
 let b:ale_fixers = ['autopep8']
